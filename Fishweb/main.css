@@ -1,0 +1,168 @@
+h1,
+h2 {
+    background-color: cyan;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+p.paragraph1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 150%;
+}
+
+p.paragraph2 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-style: inherit;
+    font-size: 1.2em;
+}
+
+p.paragraph3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: 20px;
+    line-height: 1.2em;
+    background-color: aquamarine;
+    padding: 25px;
+    padding-left: 50px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-image: url(fish.jpg);
+}
+
+p.paragraph4 {
+    background-color: aquamarine;
+    font-size: 20px;
+    padding: 25px;
+    border: 2px;
+    border-style: solid;
+    text-orientation: upright;
+    -webkit-text-orientation: upright;
+}
+
+.wrapper {
+    width: 500px;
+    overflow: hidden;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+
+.fish {
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center
+}
+
+.highlight {
+    background-color: chocolate;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: green;
+}
+
+.fish2 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+#nav {
+    background-color: blueviolet;
+    height: 25px;
+}
+
+#nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+#theform {
+    background-color: rgb(18, 194, 194);
+    width: 300px;
+    color: white;
+    padding: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-color: black;
+}
+
+.row {
+    display: table-row;
+}
+
+.row label {
+    display: table-cell;
+    padding: 2px;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+}
+
+p[lang ^="n"] {
+    background-color: orange;
+}
+
+#right p:nth-child(2n + 3) {
+    background-color: orange;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#box {
+    height: 150px;
+    width: 300px;
+    background: blue;
+    background: linear-gradient(blue, yellow);
+}
+
+#shadow {
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+    text-shadow: 3px 3px 5px orange;
+}
